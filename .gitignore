@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+dist/
+
+# Environment variables
+.env
+.env.*
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+docker-volumes/
+*.dump
+
+# Prisma
+/prisma/.env
+
+# Build outputs
+build/
+dist/
