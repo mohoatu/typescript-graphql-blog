@@ -43,8 +43,9 @@ npx prisma db seed
 
 Start development server:
 
-bashCopynpm run dev
+npm run dev
 Access the GraphQL playground at: http://localhost:4000/graphql
+
 Available Scripts
 
 npm run dev - Start development server
@@ -66,7 +67,8 @@ docker-compose down
 
 # View logs
 docker-compose logs -f
-GraphQL Examples
+
+# GraphQL Examples
 Query users:
 graphqlCopyquery {
   users {
@@ -79,6 +81,7 @@ graphqlCopyquery {
     }
   }
 }
+
 Create post:
 graphqlCopymutation {
   createPost(
